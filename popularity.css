@@ -1,0 +1,38 @@
+body {
+    background-color:#8ab8feff;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+img {
+   image-resolution: 300;
+}
+
+
+footer {
+  text-align: center;
+
+  background-color: rgb(212, 212, 212);
+ height: 90px;
+ width: 875px;
+}
+  /* Style the header */
+  .header {
+    grid-area: header;
+    background-color: #042350;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+
+  p{ 
+    text-align: center;
+  }

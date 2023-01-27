@@ -1,0 +1,83 @@
+body {
+    background-color:#8ab8feff;
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+img {
+   image-resolution: 300;
+}
+
+
+footer {
+  text-align: center;
+
+  background-color: rgb(212, 212, 212);
+ height: 90px;
+ width: 875px;
+}
+  /* Style the header */
+  .header {
+    grid-area: header;
+    background-color: #042350;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  /* The grid container */
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav nav nav nav'
+      'header header header header header header' 
+      'left middle middle middle middle middle' 
+       'pic pic pic pic pic pic'
+      'footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  } 
+  
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+   
+  }
+  
+  /* Style the left column */
+  .left {
+    grid-area: left;
+  }
+  
+  /* Style the middle column */
+  .middle {
+    grid-area: middle;
+    
+  }
+  
+  /* Style the nav */
+  .nav {
+    grid-area: nav;
+  }
+  
+  /* Style the nav */
+  .pic {
+    grid-area: pic;
+  }
+  
+  /* Style the footer */
+  .footer {
+    grid-area: footer;
+    background-color: #F65C02;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  p {
+    text-align: center;
+  }
